@@ -3,16 +3,6 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    
-};
-
-module.exports = { isValid };
-
-/**
- * @param {string} s
- * @return {boolean}
- */
-var isValid = function(s) {
     var stack = [];
     var mapping = {")": "(", "}": "{", "]": "["};
 
